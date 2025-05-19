@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rozlutskyi Art</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #e63946, #f1faee, #1d3557);
+      color: #ffffff;
+      text-align: center;
+    }
+    header {
+      padding: 60px 20px;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 0.2em;
+    }
+    p {
+      max-width: 600px;
+      margin: 0 auto 2em auto;
+      font-size: 1.2em;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      padding: 20px;
+    }
+    .gallery img {
+      max-width: 300px;
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+    .about {
+      padding: 40px 20px;
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+    .about h2 {
+      font-size: 2em;
+      margin-bottom: 0.5em;
+    }
+    .about p {
+      max-width: 700px;
+      margin: 0 auto;
+      font-size: 1.1em;
+    }
+    .links {
+      margin-top: 30px;
+    }
+    .links a {
+      color: #f1faee;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+      border: 2px solid #f1faee;
+      padding: 8px 14px;
+      border-radius: 6px;
+      transition: background 0.3s, color 0.3s;
+    }
+    .links a:hover {
+      background: #f1faee;
+      color: #1d3557;
+    }
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      font-size: 0.9em;
+      background-color: rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Rozlutskyi Art</h1>
+    <p>Ukrainian soul meets global vision. Mural art, color, and transformation — by Andrii Rozlutskyi.</p>
+  </header>
+
+  <section class="gallery">
+    <img src="https://via.placeholder.com/300x200.png?text=Art+1" alt="Artwork 1">
+    <img src="https://via.placeholder.com/300x200.png?text=Art+2" alt="Artwork 2">
+    <img src="https://via.placeholder.com/300x200.png?text=Art+3" alt="Artwork 3">
+  </section>
+
+  <section class="about">
+    <h2>About the Artist</h2>
+    <p>Andrii Rozlutskyi is a Ukrainian artist, cultural activist, and creator of the Rozlutskyi Art brand. His works blend traditional Ukrainian motifs with contemporary expression, offering a unique visual journey rooted in heritage and transformation. Now based in Canada, he continues to share his vibrant vision with the world.</p>
+    <div class="links">
+      <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+      <a href="https://www.youtube.com/" target="_blank">YouTube</a>
+      <a href="https://www.etsy.com/" target="_blank">Etsy</a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Rozlutskyi Art | Created with ❤️ for artistic freedom
+  </footer>
+</body>
+</html>
